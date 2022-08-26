@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    /* overflow: hidden; */
+}
+.hero-section{
+    height: 100vh;
+    background-image: url(../image/img5.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.div1
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.logo-img{
+    height: 35px;
+    width: 150px;
+    background-color: white;
+}
+.bi{
+    display: none;
+}
+.icons{
+    list-style: none;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.sign-btn{
+    background-color: #0F79AF;
+    height: 30px;
+    width: 70px;
+    padding: 5px;
+    border: none;
+    color: white;
+}
+.text-section{
+    height: 400px;
+    width: 35%;
+    margin-left: 1200px;
+    margin-top: 170px;
+    padding: 20px;
+    /* display: none; */
+}
+.text-section1{
+    /* height: 400px;
+    width: 35%;
+    margin-left: 1200px;
+    margin-top: 170px;
+    padding: 20px; */
+    display: none;
+}
+.head2{
+    line-height: 65px;
+    font-size: 65px;
+    margin-bottom: 40px;
+}
+.head1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.try-btn{
+    height: 37px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0F79AF;
+    color: white;
+}
+.learn-btn{
+    height: 37px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+.btn{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width: 768px){
+    .icons{
+        display: none;
+    }
+    .sign-btn{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bi{
+        display: block;
+    }
+    .hero-section{
+        height: 80vh;
+        width: 100%;
+        display: block;
+    }
+    .text-section{
+        display: none;
+    }
+    .text-section1{
+        display: block;
+        height: 300px;
+        width: 100%;
+        padding: 20px;
+    }
+}
